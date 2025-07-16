@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-//using CommunityToolkit.Maui; // Add this using directive  
+using CommunityToolkit.Maui; // Add this using directive  
 
 namespace SSB_MAUI_Foto  
 {  
@@ -10,7 +10,7 @@ namespace SSB_MAUI_Foto
             var builder = MauiApp.CreateBuilder();  
             builder  
                 .UseMauiApp<App>()  
-                //.UseMauiCommunityToolkit() // Add this line for CommunityToolkit  
+                .UseMauiCommunityToolkit() // Add this line for CommunityToolkit  
                 .ConfigureFonts(fonts =>  
                 {  //Hallöchen
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");  
